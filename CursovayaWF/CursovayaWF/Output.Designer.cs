@@ -29,12 +29,12 @@
         private void InitializeComponent()
         {
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.dataGridView2 = new System.Windows.Forms.DataGridView();
-            this.Number1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Errors = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Number = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Content = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ErrMessage = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridView2 = new System.Windows.Forms.DataGridView();
+            this.Number1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Errors = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -56,29 +56,6 @@
             this.dataGridView1.TabIndex = 0;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
-            // dataGridView2
-            // 
-            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Number1,
-            this.Errors});
-            this.dataGridView2.Location = new System.Drawing.Point(846, 41);
-            this.dataGridView2.Name = "dataGridView2";
-            this.dataGridView2.Size = new System.Drawing.Size(432, 438);
-            this.dataGridView2.TabIndex = 1;
-            // 
-            // Number1
-            // 
-            this.Number1.HeaderText = "№";
-            this.Number1.Name = "Number1";
-            this.Number1.Width = 30;
-            // 
-            // Errors
-            // 
-            this.Errors.HeaderText = "Ошибка";
-            this.Errors.Name = "Errors";
-            this.Errors.Width = 400;
-            // 
             // Number
             // 
             this.Number.HeaderText = "№";
@@ -99,6 +76,32 @@
             this.ErrMessage.Name = "ErrMessage";
             this.ErrMessage.ReadOnly = true;
             this.ErrMessage.Width = 500;
+            // 
+            // dataGridView2
+            // 
+            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Number1,
+            this.Errors});
+            this.dataGridView2.Location = new System.Drawing.Point(846, 41);
+            this.dataGridView2.Name = "dataGridView2";
+            this.dataGridView2.ReadOnly = true;
+            this.dataGridView2.Size = new System.Drawing.Size(432, 438);
+            this.dataGridView2.TabIndex = 1;
+            // 
+            // Number1
+            // 
+            this.Number1.HeaderText = "№";
+            this.Number1.Name = "Number1";
+            this.Number1.ReadOnly = true;
+            this.Number1.Width = 30;
+            // 
+            // Errors
+            // 
+            this.Errors.HeaderText = "Ошибка";
+            this.Errors.Name = "Errors";
+            this.Errors.ReadOnly = true;
+            this.Errors.Width = 400;
             // 
             // label1
             // 
