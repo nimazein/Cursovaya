@@ -23,10 +23,10 @@ C:\Apps\C#\Cursovaya\CursovayaWF\CursovayaWF\bin\Debug\CursovayaWF.exe.config
 C:\Apps\C#\Cursovaya\CursovayaWF\CursovayaWF\bin\Debug\CursovayaWF.exe
 C:\Apps\C#\Cursovaya\CursovayaWF\CursovayaWF\bin\Debug\CursovayaWF.pdb
 C:\Apps\C#\Cursovaya\CursovayaWF\CursovayaWF\obj\Debug\CursovayaWF.csprojAssemblyReference.cache
-C:\Apps\C#\Cursovaya\CursovayaWF\CursovayaWF\obj\Debug\CursovayaWF.Form1.resources
 C:\Apps\C#\Cursovaya\CursovayaWF\CursovayaWF\obj\Debug\CursovayaWF.Output.resources
 C:\Apps\C#\Cursovaya\CursovayaWF\CursovayaWF\obj\Debug\CursovayaWF.Properties.Resources.resources
 C:\Apps\C#\Cursovaya\CursovayaWF\CursovayaWF\obj\Debug\CursovayaWF.csproj.GenerateResource.cache
 C:\Apps\C#\Cursovaya\CursovayaWF\CursovayaWF\obj\Debug\CursovayaWF.csproj.CoreCompileInputs.cache
 C:\Apps\C#\Cursovaya\CursovayaWF\CursovayaWF\obj\Debug\CursovayaWF.exe
 C:\Apps\C#\Cursovaya\CursovayaWF\CursovayaWF\obj\Debug\CursovayaWF.pdb
+C:\Apps\C#\Cursovaya\CursovayaWF\CursovayaWF\obj\Debug\CursovayaWF.ChooseFile.resources
